@@ -1,0 +1,78 @@
+header,
+section,
+footer {
+  border-style: none;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(230, 224, 216);
+}
+#row {
+  display: flex;
+}
+.column {
+  width: 50%;
+}
+a:hover {
+  color: rgb(46, 241, 88);
+}
+/* selected link */
+a:active {
+  color: rgb(109, 241, 191);
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #f3ecec; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: rgb(132, 171, 238);
+  color: rgb(250, 247, 247);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #98fac9;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 2px;
+  background-color: fbf9fc;
+  padding: 20px;
+}
+h2 {
+  color: fbf9fc;
+}
+footer {
+  text-align: center;
+  font-size: large;
+  color: fbf9fc;
+}
+body {
+  background-image: url("/img/idaho/pexels-pixabay-38238.png");
+}
+article {
+  margin: 1rem;
+  padding: 1rem;
+  width: 37rem;
+  height: 30rem;
+}
+aside {
+  border-style: none;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(230, 224, 216);
+}

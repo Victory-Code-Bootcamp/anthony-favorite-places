@@ -1,0 +1,11 @@
+body{
+    background-image: url("https://picsum.photos/id/177/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: rgb(212, 168, 45);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
